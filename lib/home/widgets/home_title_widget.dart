@@ -13,7 +13,7 @@ class HomeTitleWidget extends StatelessWidget {
     return Column(
       children: [
         Text(
-          "Olá, Joana! :)",
+          "Olá, Eduardo!",
           style: GoogleFonts.inter(
             fontWeight: FontWeight.bold,
             color: BytebankColors.white,

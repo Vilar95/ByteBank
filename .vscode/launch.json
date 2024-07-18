@@ -1,0 +1,45 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "bytebank",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "bytebank (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "bytebank (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "bytebank_balance",
+            "cwd": "packages\\bytebank_balance",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "bytebank_balance (profile mode)",
+            "cwd": "packages\\bytebank_balance",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "bytebank_balance (release mode)",
+            "cwd": "packages\\bytebank_balance",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

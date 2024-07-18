@@ -18,7 +18,7 @@ ThemeData getBytebankThemeData() {
     textTheme: GoogleFonts.interTextTheme(),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ButtonStyle(
-        backgroundColor: MaterialStateProperty.all(BytebankColors.green),
+        backgroundColor: WidgetStateProperty.all(BytebankColors.green),
       ),
     ),
   );
