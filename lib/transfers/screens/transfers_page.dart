@@ -38,7 +38,7 @@ class _TransfersPageState extends State<TransfersPage> {
         children: [
           const TransferTitleWidget(),
           const HeightMargin(MarginType.large),
-          BytebankBalance(color: BytebankColors.black, userId: "ID155"),
+          const BytebankBalance(color: BytebankColors.black, userId: "ID155"),
           const HeightMargin(MarginType.large),
           TransferTransitionTypeWidget(
             transferType: transferType,

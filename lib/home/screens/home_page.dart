@@ -19,9 +19,9 @@ class HomePage extends StatelessWidget {
         context: context,
         screen: BytebankScreens.home,
       ),
-      body:  HomeBackgroundWidget(
+      body:  const HomeBackgroundWidget(
         children: [
-          const HomeTitleWidget(),
+          HomeTitleWidget(),
           BytebankBalance(color: BytebankColors.white, userId: "ID155"),
         ],
       ),
